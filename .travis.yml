@@ -14,5 +14,5 @@ install:
 script: pytest
 YAML
 install:
-  - docker build -t blog .
-  - docker run -d -p 127.0.0.1:80:80 --name blog blog
+  - docker build -t walmart .
+  - docker run -d -p 127.0.0.1:80:80 --name walmart walmart
