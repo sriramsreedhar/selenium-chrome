@@ -6,6 +6,6 @@ services:
   - docker
 
 before_install:
-- docker pull silenium/standalone-chrome
+- docker pull centos
 - docker run -it centos bash
 - docker ps -a
